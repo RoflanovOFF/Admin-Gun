@@ -11,49 +11,49 @@ encoding.default = 'CP1251'
 u8 = encoding.UTF8
 
 local guns = {
-    [1]= "Кастет",
-    [2]= "Клюшка для гольфа",
-    [3]= "Полицейская дубинка",
-    [4]= "Нож",
-    [5]= "Бейсбольная бита",
-    [6]= "Лопата",
-    [7]= "Кий",
-    [8]= "Катана",
-    [9]= "Бензопила",
-    [10] = "Двухсторонний дилдо",
-    [11] = "Дилдо",
-    [12] = "Вибратор",
-    [13] = "Серебряный вибратор",
-    [14] = "Букет цветов",
-    [15] = "Трость",
-    [16] = "Граната",
-    [17] = "Слезоточивый газ",
-    [18] = "Коктейл молотова",
-    [22] = "Пистолет 9мм",
-    [23] = "Пистолет 9мм (глуш)",
-    [24] = "Пистолет Дезерт Игл",
-    [25] = "Обычный дробовик",
-    [26] = "Обрез",
-    [27] = "Скорострельный дробовик",
-    [28] = "УЗИ",
-    [29] = "МП5",
-    [30] = "АК",
-    [31] = "М4",
+    [1]= "ГЉГ Г±ГІГҐГІ",
+    [2]= "ГЉГ«ГѕГёГЄГ  Г¤Г«Гї ГЈГ®Г«ГјГґГ ",
+    [3]= "ГЏГ®Г«ГЁГ¶ГҐГ©Г±ГЄГ Гї Г¤ГіГЎГЁГ­ГЄГ ",
+    [4]= "ГЌГ®Г¦",
+    [5]= "ГЃГҐГ©Г±ГЎГ®Г«ГјГ­Г Гї ГЎГЁГІГ ",
+    [6]= "Г‹Г®ГЇГ ГІГ ",
+    [7]= "ГЉГЁГ©",
+    [8]= "ГЉГ ГІГ Г­Г ",
+    [9]= "ГЃГҐГ­Г§Г®ГЇГЁГ«Г ",
+    [10] = "Г„ГўГіГµГ±ГІГ®Г°Г®Г­Г­ГЁГ© Г¤ГЁГ«Г¤Г®",
+    [11] = "Г„ГЁГ«Г¤Г®",
+    [12] = "Г‚ГЁГЎГ°Г ГІГ®Г°",
+    [13] = "Г‘ГҐГ°ГҐГЎГ°ГїГ­Г»Г© ГўГЁГЎГ°Г ГІГ®Г°",
+    [14] = "ГЃГіГЄГҐГІ Г¶ГўГҐГІГ®Гў",
+    [15] = "Г’Г°Г®Г±ГІГј",
+    [16] = "ГѓГ°Г Г­Г ГІГ ",
+    [17] = "Г‘Г«ГҐГ§Г®ГІГ®Г·ГЁГўГ»Г© ГЈГ Г§",
+    [18] = "ГЉГ®ГЄГІГҐГ©Г« Г¬Г®Г«Г®ГІГ®ГўГ ",
+    [22] = "ГЏГЁГ±ГІГ®Г«ГҐГІ 9Г¬Г¬",
+    [23] = "ГЏГЁГ±ГІГ®Г«ГҐГІ 9Г¬Г¬ (ГЈГ«ГіГё)",
+    [24] = "ГЏГЁГ±ГІГ®Г«ГҐГІ Г„ГҐГ§ГҐГ°ГІ Г€ГЈГ«",
+    [25] = "ГЋГЎГ»Г·Г­Г»Г© Г¤Г°Г®ГЎГ®ГўГЁГЄ",
+    [26] = "ГЋГЎГ°ГҐГ§",
+    [27] = "Г‘ГЄГ®Г°Г®Г±ГІГ°ГҐГ«ГјГ­Г»Г© Г¤Г°Г®ГЎГ®ГўГЁГЄ",
+    [28] = "Г“Г‡Г€",
+    [29] = "ГЊГЏ5",
+    [30] = "ГЂГЉ",
+    [31] = "ГЊ4",
     [32] = "TEC-9",
-    [33] = "Охотничье ружье",
-    [34] = "Снайперская винтовка",
-    [35] = "РПГ",
-    [36] = "Ракетница",
-    [37] = "Огнемет",
-    [38] = "Миниган",
-    [39] = "Тротил",
-    [40] = "Детонатор",
-    [41] = "Балончик",
-    [42] = "Огнетушитель",
-    [43] = "Фотоаппарат",
-    [44] = "ПНВ",
-    [45] = "Тепловизор",
-    [46] = "Парашют"
+    [33] = "ГЋГµГ®ГІГ­ГЁГ·ГјГҐ Г°ГіГ¦ГјГҐ",
+    [34] = "Г‘Г­Г Г©ГЇГҐГ°Г±ГЄГ Гї ГўГЁГ­ГІГ®ГўГЄГ ",
+    [35] = "ГђГЏГѓ",
+    [36] = "ГђГ ГЄГҐГІГ­ГЁГ¶Г ",
+    [37] = "ГЋГЈГ­ГҐГ¬ГҐГІ",
+    [38] = "ГЊГЁГ­ГЁГЈГ Г­",
+    [39] = "Г’Г°Г®ГІГЁГ«",
+    [40] = "Г„ГҐГІГ®Г­Г ГІГ®Г°",
+    [41] = "ГЃГ Г«Г®Г­Г·ГЁГЄ",
+    [42] = "ГЋГЈГ­ГҐГІГіГёГЁГІГҐГ«Гј",
+    [43] = "Г”Г®ГІГ®Г ГЇГЇГ Г°Г ГІ",
+    [44] = "ГЏГЌГ‚",
+    [45] = "Г’ГҐГЇГ«Г®ГўГЁГ§Г®Г°",
+    [46] = "ГЏГ Г°Г ГёГѕГІ"
 }
 local color1 = '0x1D54DE'
 local tag = '[Admin Gun]{FFFFFF} '
@@ -70,14 +70,16 @@ function main()
     while not isSampAvailable() do
         wait(0)
     end
+
     imgui.SwitchContext()
     setStyle()
     sampRegisterChatCommand('gunsa', gunWindow)
     sampRegisterChatCommand('guna', gunCmd)
+    
     while true do
         wait(0)
     	if not gunWindowState.v then
-    		imgui.Process = false
+    	    imgui.Process = false
     	end
     end
 end
@@ -89,16 +91,16 @@ end
 
 function gunCmd(arg)
 	if #arg > 0 then
-		id, ammo = string.match(arg, '(%d+) (%d+)')
-        id, ammo = tonumber(id), tonumber(ammo)
+	    id, ammo = string.match(arg, '(%d+) (%d+)')
+	    id, ammo = tonumber(id), tonumber(ammo)
 		if id <= 46 and id >= 1 then
-			giveWeaponToChar(playerPed, id, ammo)
-			sampAddChatMessage(tag..'Оружие {1D54DE}'..guns[id]..'{FFFFFF} успешно выдано!', color1)
+		    giveWeaponToChar(playerPed, id, ammo)
+		    sampAddChatMessage(tag..'ГЋГ°ГіГ¦ГЁГҐ {1D54DE}'..guns[id]..'{FFFFFF} ГіГ±ГЇГҐГёГ­Г® ГўГ»Г¤Г Г­Г®!', color1)
 		else
-		   sampAddChatMessage(tag..'Используйте: /guna [1 - 46] [патроны]', color1)
+		   sampAddChatMessage(tag..'Г€Г±ГЇГ®Г«ГјГ§ГіГ©ГІГҐ: /guna [1 - 46] [ГЇГ ГІГ°Г®Г­Г»]', color1)
 		end
 	else
-		sampAddChatMessage(tag..'Используйте: /guna [id оружия] [патроны]', color1)
+	    sampAddChatMessage(tag..'Г€Г±ГЇГ®Г«ГјГ§ГіГ©ГІГҐ: /guna [id Г®Г°ГіГ¦ГЁГї] [ГЇГ ГІГ°Г®Г­Г»]', color1)
 	end
 end
 
@@ -108,7 +110,7 @@ function imgui.OnDrawFrame()
     imgui.GetStyle().WindowTitleAlign = imgui.ImVec2(0.5, 0.5)
     imgui.Begin('ADMIN GUN', gunWindowState, imgui.WindowFlags.NoResize + imgui.WindowFlags.NoCollapse)
 
-    imgui.InputInt(u8"Количество патронов", ammoWindow, 100, 100)
+    imgui.InputInt(u8"ГЉГ®Г«ГЁГ·ГҐГ±ГІГўГ® ГЇГ ГІГ°Г®Г­Г®Гў", ammoWindow, 100, 100)
 
     local gcount = 1
     for gunid, guntitle in pairs(guns) do
@@ -125,7 +127,7 @@ end
 
 function givegun(gunid, ammo)
 	giveWeaponToChar(playerPed, gunid, ammo)
-	sampAddChatMessage(tag..'Оружие {1D54DE}'..guns[gunid]..'{FFFFFF} успешно выдано!', color1)
+	sampAddChatMessage(tag..'ГЋГ°ГіГ¦ГЁГҐ {1D54DE}'..guns[gunid]..'{FFFFFF} ГіГ±ГЇГҐГёГ­Г® ГўГ»Г¤Г Г­Г®!', color1)
 	imgui.Process = false
 	gunWindowState.v = false
 end
